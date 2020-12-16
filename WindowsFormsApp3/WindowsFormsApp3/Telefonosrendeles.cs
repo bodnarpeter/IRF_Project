@@ -16,5 +16,19 @@ namespace WindowsFormsApp3
         {
             InitializeComponent();
         }
+
+        private void rendelesekbetoltbtn_Click(object sender, EventArgs e)
+        {
+
+        }
+        public class TRendelesek
+        {
+            public string CustomerName { get; set; } 
+            public int PizzeriaId{ get; set; }
+            public string PizzaName { get; set; }
+            public int Quantity { get; set; }
+            public string Address { get; set; }
+           
+        }
     }
 }

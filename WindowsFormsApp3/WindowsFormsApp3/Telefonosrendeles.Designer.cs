@@ -51,6 +51,7 @@
             this.rendelesekbetoltbtn.TabIndex = 1;
             this.rendelesekbetoltbtn.Text = "Rendelések betöltése";
             this.rendelesekbetoltbtn.UseVisualStyleBackColor = true;
+            this.rendelesekbetoltbtn.Click += new System.EventHandler(this.rendelesekbetoltbtn_Click);
             // 
             // Telefonosrendeles
             // 
